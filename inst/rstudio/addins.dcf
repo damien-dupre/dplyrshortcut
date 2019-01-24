@@ -1,4 +1,19 @@
-Name: Insert dplyr::mutate()
-    Description: Inserts `dplyr::mutate()` at the cursor position.
+Name: Insert dplyr::mutate(
+Description: Inserts `dplyr::mutate(` at the cursor position.
+Binding: insertInAddin
+Interactive: false
+
+Name: Insert dplyr::select(
+Description: Inserts `dplyr::select(` at the cursor position.
+Binding: insertInAddin
+Interactive: false
+
+Name: Insert dplyr::filter(
+Description: Inserts `dplyr::filter(` at the cursor position.
+Binding: insertInAddin
+Interactive: false
+
+Name: Insert dplyr::group_by(
+Description: Inserts `dplyr::mutate(` at the cursor position.
 Binding: insertInAddin
 Interactive: false
