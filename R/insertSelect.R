@@ -3,6 +3,6 @@
 #' Call this function as an addin to insert \code{ dplyr::select( } at the cursor position.
 #'
 #' @export
-insertInAddin <- function() {
+insertSelect <- function() {
     rstudioapi::insertText("dplyr::select(")
 }
