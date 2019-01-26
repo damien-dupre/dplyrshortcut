@@ -12,7 +12,7 @@ You can install the development version of `dplyrshortcut` with the [devtools](h
 devtools::install_github("damien-dupre/dplyrshortcut")
 ```
 
-# Use
+## Use
 
 `dplyrshortcut` add functions in RStudio IDE's Addins section.
 

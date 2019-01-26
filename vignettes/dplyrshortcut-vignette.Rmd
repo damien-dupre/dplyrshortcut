@@ -42,8 +42,8 @@ Then, in order to add the shortcut to your keyboard, use the Rstudio IDE: Tools>
 * Ctrl+Shift+G for "dplyr::group_by("
 * Ctrl+Shift+S for "dplyr::select("
 
+and modify Insert Pipe Operator with Ctrl+Shift+P.
+
 ```{r, echo=FALSE, fig.cap="Modify Keyboard Shortcuts with RStudio IDE.", out.width = '100%'}
 knitr::include_graphics("img/img_02.png")
 ```
-
-and modify Insert Pipe Operator with Ctrl+Shift+P.
