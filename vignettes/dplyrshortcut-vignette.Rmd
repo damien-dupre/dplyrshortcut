@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-People are saying that if you are repeating a code more than twice, then creates a function for it. The idea of `dplyrshortcut` is that if you are using a function more than twice, then use a keyboard shortcut.
+People are saying that if you are repeating a code more than twice, then make a function for it. The idea of `dplyrshortcut` is that if you are using a function more than twice, then use a keyboard shortcut.
 
 # Installation
 
