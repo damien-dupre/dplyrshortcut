@@ -1,28 +1,13 @@
----
-title: "dplyrshortcut vignette"
-author: "Damien Dupré"
-date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{dplyrshortcut vignette}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
----
-
-```{r setup, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
+dplyrshortcut R package
+=======
 
 People are saying that if you are repeating a code more than twice, then creates a function for it. The idea of `dplyrshortcut` is that if you are using a function more than twice, then use a keyboard shortcut.
 
-# Installation
+## Installation
 
-You can install the development version of `dplyrshortcut` with the devtools package.
+You can install the development version of `dplyrshortcut` with the [devtools](https://http://devtools.r-lib.org) package.
 
-```{r, eval = FALSE}
+``` r
 # install.packages("devtools")
 devtools::install_github("damien-dupre/dplyrshortcut")
 ```
@@ -31,9 +16,7 @@ devtools::install_github("damien-dupre/dplyrshortcut")
 
 `dplyrshortcut` add functions in RStudio IDE's Addins section.
 
-```{r, echo=FALSE, fig.cap="Addins section in Rstudio IDE.", out.width = '100%'}
-knitr::include_graphics("img/img_01.png")
-```
+![Addins section in Rstudio IDE.](vignettes/img/img_01.png)
 
 Then, in order to add the shortcut to your keyboard, use the Rstudio IDE: Tools>Modify Keyboard Shortcuts... and associate the keyboard shortcut you prefer, such as:
 
@@ -42,8 +25,6 @@ Then, in order to add the shortcut to your keyboard, use the Rstudio IDE: Tools>
 * Ctrl+Shift+G for "dplyr::group_by("
 * Ctrl+Shift+S for "dplyr::select("
 
-```{r, echo=FALSE, fig.cap="Modify Keyboard Shortcuts with RStudio IDE.", out.width = '100%'}
-knitr::include_graphics("img/img_02.png")
-```
-
 and modify Insert Pipe Operator with Ctrl+Shift+P.
+
+![Modify Keyboard Shortcuts with RStudio IDE.](vignettes/img/img_02.png)
